@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1> INSTRUCTIONS</h1>
+    <h2> in "OR", put in the response numbers you want to combine, separated by commas with NO SPACES. For example, if you want to see all responses that either said (that 
+        they are Strongly Interested in trying the applicator) or (that preventing pregnancy is a concern for during sex), then type <72,21> without the "<>".
+        </h2>
+
+        <h2>
+            in "AND", put in the responses you want to cross reference with. Again, separated by commas with NO SPACES. So, if you want to look at the responses that said everything in the OR field AND said either they are American or religious beliefs are important to them, you would type <239,121> 
+                without the <>. 
+        </h2>
+
+        <h2> In the "Question you want to see results from", type in the number of the QUESTION that you want to see the response breakdown of. This number must be the number of a question, NOT a response</h2>
+        <p> Examples: OR:{38,41} , AND:{72,73}, Q:{77} takes anyone that agrees that condoms reduce sexual pleasure and those who are interested in the applicator, and sees the reasons they are interested in the applicator</p>
+
+        <h2> To get the numbers: navigate to <a href = "/reference"> /reference </a></h2>
+
+    <form action="/data" method = "POST">
+        <p>OR <input type = "text" name = "OR" /></p>
+        <p>AND <input type = "text" name = "AND" /></p>
+        <p>Question you want to see results of <input type = "text" name = "Question you want to see results of" /></p>
+        <p><input type = "submit" value = "Submit" /></p>
+    </form>
+
+</body>
+
+
+
+
+</html>
